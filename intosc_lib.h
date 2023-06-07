@@ -1,0 +1,1 @@
+void intosc_init(void);
