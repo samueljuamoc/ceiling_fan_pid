@@ -8,9 +8,7 @@
 # 2 "<built-in>" 2
 # 1 "pwm_lib.c" 2
 # 1 "./config.h" 1
-
-
-
+# 12 "./config.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -5721,7 +5719,7 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 2 3
-# 4 "./config.h" 2
+# 12 "./config.h" 2
 
 
 
@@ -5937,40 +5935,54 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 74 "./config.h" 2
+# 82 "./config.h" 2
 
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.36\\pic\\include\\c99\\stdbool.h" 1 3
-# 76 "./config.h" 2
+# 84 "./config.h" 2
 
 
 # 1 "./intosc_lib.h" 1
+
+
+
 void intosc_init(void);
-# 78 "./config.h" 2
+# 86 "./config.h" 2
 
 # 1 "./usart_lib.h" 1
+
+
+
 void USART_init(long BAUD);
 void putch(uint8_t data);
 uint8_t getch();
 void UART_print(char *data);
-# 79 "./config.h" 2
+# 87 "./config.h" 2
 
 # 1 "./adc_lib.h" 1
 
 
+
+
 void ADC_init(void);
 uint16_t ADC_read(uint8_t canal);
-# 80 "./config.h" 2
+# 88 "./config.h" 2
 
 # 1 "./timer0_lib.h" 1
+
+
+
 void TMR0_init(void);
 uint16_t TMR0_read(void);
 void TMR0_reset(void);
 void TMR0_enable(void);
 void TMR0_disable(void);
-# 81 "./config.h" 2
+# 89 "./config.h" 2
 
 # 1 "./timer1_lib.h" 1
+
+
+
 void TMR1_init(void);
 void TMR1_set(void);
 
@@ -5978,13 +5990,16 @@ void TMR1_stop(void);
 void TMR1_int_init(void);
 void TMR1_int_enable(void);
 void TMR1_int_disable(void);
-# 82 "./config.h" 2
+# 90 "./config.h" 2
 
 # 1 "./pwm_lib.h" 1
+
+
+
 void pwm_set(void);
 void pwm1_send(uint16_t valor);
 void pwm2_send(uint16_t valor);
-# 83 "./config.h" 2
+# 91 "./config.h" 2
 # 1 "pwm_lib.c" 2
 
 

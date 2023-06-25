@@ -506,7 +506,7 @@ text9 80A 1A9B CODE 80A 0
 %locals
 dist/default/production\ventilador.X.production.o
 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4550.h
-C:\Users\strud\AppData\Local\Temp\xcAscjo.s
+C:\Users\strud\AppData\Local\Temp\xcAs8cs.s
 2687 19D8 0 CODE 0
 2689 19D8 0 CODE 0
 2692 19D8 0 CODE 0
@@ -963,7 +963,7 @@ adc_lib.c
 20 19CC 0 CODE 0
 21 19D4 0 CODE 0
 22 19D6 0 CODE 0
-C:\Users\strud\AppData\Local\Temp\xcAscjo.s
+C:\Users\strud\AppData\Local\Temp\xcAs8cs.s
 8769 8 0 CODE 0
 main.c
 130 8 0 CODE 0
