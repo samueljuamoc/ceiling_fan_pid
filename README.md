@@ -17,5 +17,5 @@ The main.c is the code of the DAQ system: Inclusion of config.h file, defining v
 1. Reading of the velocity of a motor through counter and interrupts.
 2. Reading of the ADCs in order to get intensity of light.
 3. Conditioning and transmission of readings in form of a data stream to LabVIEW.
-4. Reception and conditioning of LabVIEW data stream (PID controlled closed-loop system values).
+4. Reception and conditioning of LabVIEW data stream (which is the manipulated variable of a closed-loop system with PID control).
 5. Rewrite of the PWM outputs.
